@@ -22,6 +22,9 @@ Para o teste com o curl, utilize novamente o comando prévio $curl http://localh
 Para acessar o nó-worker digite $curl http://address-of-other-node:8000 !ATENÇÃO! address-of-node será
 o endereço ip da máquina-worker, que poderá ser vericado com o comando $hostname -I
 
+Na máquina-worker deverá ser introduzido o token para se juntar ao swarm, e ele será visto quando o
+manager der o comando $docker swarm init
+
 Para 'desligar' o stack, digite $docker stack rm stackdemo
 Para 'desligar' o registro, digite $docker service rm registry
 
